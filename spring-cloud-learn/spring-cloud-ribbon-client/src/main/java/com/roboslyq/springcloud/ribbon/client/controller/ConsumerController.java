@@ -1,4 +1,4 @@
-package com.springcloudribbonclient.controller;
+package com.roboslyq.springcloud.ribbon.client.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

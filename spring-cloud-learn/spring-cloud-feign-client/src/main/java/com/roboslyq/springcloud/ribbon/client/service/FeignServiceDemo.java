@@ -1,4 +1,4 @@
-package com.springcloudribbonclient.service;
+package com.roboslyq.springcloud.ribbon.client.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.springcloudribbonclient;
+package com.roboslyq.springcloud.ribbon.client;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
