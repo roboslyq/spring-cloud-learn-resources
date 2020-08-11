@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.roboslyq</groupId>
-	<artifactId>spring-cloud-eureka-client</artifactId>
+	<artifactId>spring-cloud-server-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-cloud-eureka-client</name>
 	<description>Demo project for Spring Boot</description>
