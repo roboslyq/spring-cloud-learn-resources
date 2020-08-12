@@ -11,7 +11,7 @@
 	<groupId>com.roboslyq</groupId>
 	<artifactId>spring-cloud-server-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-cloud-eureka-client</name>
+	<name>spring-cloud-server-demo</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -32,7 +32,10 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>

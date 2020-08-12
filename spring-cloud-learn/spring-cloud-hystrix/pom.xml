@@ -11,7 +11,7 @@
 	<groupId>com.roboslyq</groupId>
 	<artifactId>spring-cloud-hystrix</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-cloud-config</name>
+	<name>spring-cloud-hystrix</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
