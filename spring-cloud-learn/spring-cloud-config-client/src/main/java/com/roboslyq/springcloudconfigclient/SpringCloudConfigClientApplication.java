@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.context.refresh.ContextRefresher;
 import org.springframework.core.env.Environment;
 import org.springframework.scheduling.annotation.EnableScheduling;
@@ -16,6 +17,7 @@ import java.util.Set;
 @SpringBootApplication
 @EnableScheduling
 @RestController
+@RefreshScope
 public class SpringCloudConfigClientApplication {
 	@Autowired
 	private ContextRefresher contextRefresher;
