@@ -13,7 +13,7 @@ public class ConsumerController {
 
     @GetMapping(value = "/hello")
     public String hello() {
-        String result = restTemplate.getForEntity("http://SPRING-CLOUD-EUREKA-CLIENT/hello", String.class).getBody();
+        String result = restTemplate.getForEntity("http://SPRING-CLOUD-SERVER-DEMO/hello", String.class).getBody();
         System.out.println(result);
         return  result;
     }

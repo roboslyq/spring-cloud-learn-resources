@@ -13,7 +13,7 @@ public class HystrixRibbonService {
     //指定服务失败回调方法
     @HystrixCommand(fallbackMethod = "helloError")
     public String hello() {
-        String result = restTemplate.getForEntity("http://SPRING-CLOUD-EUREKA-CLIENT/hello", String.class).getBody();
+        String result = restTemplate.getForEntity("http://SPRING-CLOUD-SERVER-DEMO/hello", String.class).getBody();
         System.out.println(result);
         return  result;
     }

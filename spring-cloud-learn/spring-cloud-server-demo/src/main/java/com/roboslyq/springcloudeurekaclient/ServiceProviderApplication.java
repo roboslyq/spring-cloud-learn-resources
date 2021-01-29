@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 //@SpringBootApplication
 ////启用服务发瑞客户端
 //@EnableDiscoveryClient
-//@RestController
+@RestController
 public class ServiceProviderApplication {
 	@Value("${server.port}")
 	private int serverPort;
