@@ -1,0 +1,5 @@
+/spring-cloud-server-demo/target/classes/application.properties
+/spring-cloud-server-demo/target/classes/com/roboslyq/springcloudeurekaclient/ServiceProviderApplication.class
+/spring-cloud-hystrix/spring-cloud-hystrix.iml
+/spring-cloud-server-demo/spring-cloud-server-demo.iml
+/spring-cloud-server-demo/target/test-classes/com/roboslyq/springcloudeurekaclient/SpringCloudEurekaClientApplicationTests.class
