@@ -1,5 +1,14 @@
 /spring-cloud-server-demo/target/classes/application.properties
+/spring-cloud-hystrix/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+/spring-cloud-server-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+/spring-cloud-hystrix/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+/spring-cloud-server-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+/spring-cloud-hystrix/target/maven-archiver/pom.properties
+/spring-cloud-server-demo/target/maven-archiver/pom.properties
 /spring-cloud-server-demo/target/classes/com/roboslyq/springcloudeurekaclient/ServiceProviderApplication.class
 /spring-cloud-hystrix/spring-cloud-hystrix.iml
+/spring-cloud-hystrix/target/spring-cloud-hystrix-0.0.1-SNAPSHOT.jar
+/spring-cloud-hystrix/target/spring-cloud-hystrix-0.0.1-SNAPSHOT.jar.original
 /spring-cloud-server-demo/spring-cloud-server-demo.iml
-/spring-cloud-server-demo/target/test-classes/com/roboslyq/springcloudeurekaclient/SpringCloudEurekaClientApplicationTests.class
+/spring-cloud-server-demo/target/spring-cloud-server-demo-0.0.1-SNAPSHOT.jar
+/spring-cloud-server-demo/target/spring-cloud-server-demo-0.0.1-SNAPSHOT.jar.original
