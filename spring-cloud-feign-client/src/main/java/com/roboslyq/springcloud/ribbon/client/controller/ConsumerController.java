@@ -1,10 +1,9 @@
 package com.roboslyq.springcloud.ribbon.client.controller;
 
-import com.roboslyq.springcloud.ribbon.client.service.FeignServiceDemo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+import com.roboslyq.springcloud.ribbon.client.service.FeignServiceDemo;
 @RestController
 public class ConsumerController {
     //注入接口

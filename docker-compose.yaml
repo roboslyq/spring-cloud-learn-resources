@@ -1,0 +1,22 @@
+# 通过docker-compose部署时，需要此配置文件，通过k8s或者非容器化部署时，不需要此配置文件
+version: '3'
+
+services:
+  spring-cloud-eureka:
+    image: spring-cloud-eureka:latest
+    ports:
+      - "8082:8082"
+  spring-cloud-server:
+    image: spring-cloud-server:latest
+    links:
+      - spring-cloud-eureka
+    ports:
+      - "8083:8083"
+
+  spring-cloud-feign-client:
+    image: spring-cloud-feign-client:latest
+    links:
+      - spring-cloud-eureka
+      - spring-cloud-server
+    ports:
+      - "8084:8084"
